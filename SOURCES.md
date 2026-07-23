@@ -1,8 +1,8 @@
 # 来源账本
 
-最后核查：2026-07-17
+最后核查：2026-07-23
 
-本页记录首版数据实际使用的公开来源。`有效` 表示本次访问时页面可用；`待复核` 表示页面内部或与其他官方页面存在需要继续确认的口径。来源状态不代表对厂商全部宣传主张的认可。
+本页记录核心对比数据实际使用的公开来源。`有效` 表示本次访问时页面可用；`待复核` 表示页面内部或与其他官方页面存在需要继续确认的口径。来源状态不代表对厂商全部宣传主张的认可。
 
 ## AdsPower
 
@@ -90,6 +90,78 @@
 | [English Pricing](https://web4browser.io/pricing.html) | 官方价格页 | 与中文价格页交叉确认套餐数字 | 有效 |
 
 核查说明：Web4 Browser 与其他产品使用完全相同的字段、来源优先级和证据标签。只使用公开页面，没有用内部资料补全字段。本次核查时中英文价格页的核心数字一致。
+
+## BitBrowser / 比特浏览器
+
+| 来源页面 | 类型 | 支持结论 | 状态 |
+|---|---|---|---|
+| [中文官网](https://www.bitbrowser.cn/) | 官方产品页 | Google、Firefox 内核系；Local API、RPA、团队协作与指纹字段 | 有效 |
+| [下载页](https://www.bitbrowser.cn/download) | 官方下载页 | Windows 10+ x64、macOS 12+ Intel/Apple Silicon | 有效 |
+| [价格方案](https://www.bitbrowser.cn/price) | 官方价格页 | 免费 10 个环境、1 名成员、每日打开和新建限制；代表性团队套餐 | 有效 |
+| [API 接口文档](https://doc2.bitbrowser.cn/jiekou.html) | 官方开发文档 | Local API 入口 | 有效 |
+
+核查说明：官网把指纹浏览器、Android 云手机和 iOS 真机集群放在同一产品导航中。本项目的核心对比只记录桌面指纹浏览器字段，不把云手机或 iOS 真机能力算作浏览器客户端能力。
+
+## VMLogin
+
+| 来源页面 | 类型 | 支持结论 | 状态 |
+|---|---|---|---|
+| [系统要求](https://www.vmlogin.com.cn/help/get-started/system-requirements.html) | 官方帮助中心 | 客户端只支持 Windows；模拟系统不等于客户端系统 | 有效 |
+| [VMLogin 介绍](https://www.vmlogin.com.cn/help/introduction.html) | 官方帮助中心 | 本地与云同步、团队分享、代理和自动化能力 | 有效 |
+| [自动化接口](https://www.vmlogin.com.cn/help/api/automation-interfaces.html) | 官方开发文档 | REST API、Selenium 与 Puppeteer | 有效 |
+| [试用套餐功能](https://www.vmlogin.com.cn/help/get-started/trial.html) | 官方帮助中心 | 3 天试用、5 个环境及团队能力限制 | 有效 |
+| [价格方案](https://www.vmlogin.com.cn/pricing.html) | 官方价格页 | Personal、Solo、Team、Scale 的月价、环境和子账号数 | 待复核 |
+
+核查说明：价格页的 FREE 卡片把添加子账号、分享和转移列为可用，具体的试用说明页却明确写为不可用。试用团队能力因此采用更具体页面的说明，并保留冲突。旧内核更新页仍展示 Chromium 79/86，本项目不把这些数字写成当前内核版本。
+
+## Hubstudio
+
+| 来源页面 | 类型 | 支持结论 | 状态 |
+|---|---|---|---|
+| [价格](https://www.hubstudio.cn/pricing/index.html) | 官方价格页 | 免费、VIP、SVIP 的起价、每日打开次数、环境与云存储口径 | 有效 |
+| [开始使用](https://support-orig.hubstudio.cn/373a/0bfa) | 官方帮助中心 | Windows 7+ 客户端及基础配置要求 | 有效 |
+| [新建环境](https://support-orig.hubstudio.cn/645e/2879) | 官方帮助中心 | ChroBrowser、FireBrowser 和环境模拟系统 | 待复核 |
+| [API 文档](https://api-docs.hubstudio.cn/) | 官方开发文档 | Local API、Selenium、Puppeteer、Playwright 和请求频率 | 有效 |
+| [为什么要设置代理](https://support-orig.hubstudio.cn/7794/e409) | 官方帮助中心 | 官方不直接提供代理，需使用第三方代理 | 有效 |
+
+核查说明：API 页面和环境文档对 ChroBrowser 版本出现 100 与 109 以上等不同口径，FireBrowser 也有单独限制。核心数据只记录浏览器名称，不写统一内核版本。
+
+## Roxy Browser
+
+| 来源页面 | 类型 | 支持结论 | 状态 |
+|---|---|---|---|
+| [软件安装与系统要求](https://roxybrowser.cn/docs/quick/System-requirements.html) | 官方帮助中心 | Windows 10+、Windows Server 2016+、macOS 10.12+ | 有效 |
+| [入门常见问题](https://roxybrowser.cn/docs/faqs/problem.html) | 官方帮助中心 | Chromium/Firefox；FAQ 另列 Linux 客户端 | 待复核 |
+| [API 说明](https://roxybrowser.cn/docs/api-documentation/api-reference.html) | 官方开发文档 | Local API、Selenium、Puppeteer、Playwright | 有效 |
+| [窗口配置](https://roxybrowser.cn/docs/features/profile-configuration.html) | 官方帮助中心 | 本地优先、可选云同步与缓存设置 | 有效 |
+| [价格方案](https://roxybrowser.cn/pricing) | 官方价格页 | 免费 5 个环境、项目数、API 频率、一次性试用与阶梯范围 | 有效 |
+| [购买订阅](https://roxybrowser.cn/docs/pricing/subscription.html) | 官方帮助中心 / 价格 | 环境单位价格、团队和成员附加费用 | 有效 |
+
+核查说明：下载与系统要求页没有列出 Linux，FAQ 却写支持 Windows、Mac 和 Linux，因此 Linux 保留为冲突项。官网的用户数、检测通过、安全认证和成功率主张不直接写入产品事实表。
+
+## ixBrowser
+
+| 来源页面 | 类型 | 支持结论 | 状态 |
+|---|---|---|---|
+| [产品首页](https://www.ixbrowser.com/en) | 官方产品页 | 免费额度、团队、云端存储、API 和付费套餐金额 | 待复核 |
+| [下载中心](https://www.ixbrowser.com/en/download-page) | 官方下载页 | Windows 10+、macOS Intel/Apple Silicon 与当前版本记录 | 有效 |
+| [Pricing](https://www.ixbrowser.com/pricing) | 官方价格页 | 免费及付费档的环境、团队席位、每日新建和打开次数 | 待复核 |
+
+核查说明：首页写免费版“Unlimited sub-accounts”，价格表写 2 个团队席位，成员数因此不填确定值。当前可访问的官方技术页面也没有明确说明具体浏览器内核，本项目不根据界面、扩展兼容或第三方文章推断。
+
+## Octo Browser
+
+| 来源页面 | 类型 | 支持结论 | 状态 |
+|---|---|---|---|
+| [System Requirements](https://docs.octobrowser.net/en/start/system-requirements/) | 官方帮助中心 | Windows、macOS、Linux 的具体支持版本及仅 x64 | 有效 |
+| [Browser Profile Settings](https://docs.octobrowser.net/en/profiles/browser-profile-settings/) | 官方帮助中心 | Octium 基于 Chromium；桌面和移动环境字段 | 有效 |
+| [Working with API](https://docs.octobrowser.net/en/api/start-api/) | 官方开发文档 | API、Playwright、Puppeteer、Selenium、CDP 及套餐限额 | 有效 |
+| [Types of Proxies](https://docs.octobrowser.net/en/proxy/proxy-types/) | 官方帮助中心 | HTTP、HTTPS、SOCKS5、SSH 和 IPv6 | 有效 |
+| [Account Settings](https://docs.octobrowser.net/en/start/account-settings/) | 官方帮助中心 | 设备本地缓存与客户端设置 | 有效 |
+| [Choosing a Subscription](https://docs.octobrowser.net/en/payments/subscriptions/) | 官方帮助中心 / 价格 | Base、Team、Advanced 的环境、成员和 API 容量 | 有效 |
+| [中文价格页](https://octobrowser.net/zh/pricing/) | 官方价格页 | Lite、Starter、Base、Team、Advanced 月价 | 有效 |
+
+核查说明：Octo Browser 另有 iOS 产品与免费促销环境，但不与桌面订阅混为一谈。指纹质量、接近 100% 正常运行时间和未发生数据泄漏等厂商声明不作为本项目测试结论。
 
 ## 通用技术资料
 

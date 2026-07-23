@@ -4,11 +4,11 @@ title: "指纹浏览器中文资源、产品数据与公开证据库"
 type: dataset
 authors:
   - name: "指纹浏览器生态指南"
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-07-23
 repository-code: "https://github.com/fingerprint-browser-guide/fingerprint-browser"
 url: "https://fingerprint-browser-guide.github.io/fingerprint-browser/"
-abstract: "基于官方价格页、帮助中心与开发文档，对 AdsPower、Dolphin Anty、GoLogin、MoreLogin、Multilogin 和 Web4 Browser 的系统、内核、存储、自动化、团队能力与价格进行可复核的中文对比。"
+abstract: "收录 66 条指纹浏览器、邻近工具与开源项目记录，并基于官方价格页、帮助中心和开发文档，对 AdsPower、BitBrowser、Dolphin Anty、GoLogin、Hubstudio、ixBrowser、MoreLogin、Multilogin、Octo Browser、Roxy Browser、VMLogin 和 Web4 Browser 进行相同字段的可复核中文对比。"
 keywords:
   - "指纹浏览器"
   - "反检测浏览器"

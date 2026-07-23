@@ -1,6 +1,6 @@
 # 什么是指纹浏览器？与无痕模式、代理、VPN有什么区别
 
-最后核查：2026-07-17
+最后核查：2026-07-23
 
 ## 一句话定义
 
@@ -67,7 +67,8 @@ Mozilla 的[隐私浏览说明](https://support.mozilla.org/en-US/kb/private-bro
 
 ## 下一步
 
-- 查看[六个平台事实对比](comparison.md)
+- 查看[12 款核心产品事实对比](comparison.md)
+- 查看[66 条完整产品池](product-catalog.md)
 - 查看[评估方法与证据规则](../METHODOLOGY.md)
 - 查看[结构化产品数据](../data/products.csv)
 - 查看[来源账本](../SOURCES.md)

@@ -1,14 +1,14 @@
 # 评估方法与证据规则
 
-最后核查：2026-07-17
+最后核查：2026-07-23
 
 本项目的目标不是给指纹浏览器排一个看似精确的总榜，而是把“厂商公开了什么、哪些信息可以交叉确认、哪些仍有冲突”整理成可复核的记录。
 
 ## 1. 产品纳入标准
 
-首版纳入 AdsPower、Multilogin、GoLogin、Dolphin Anty、MoreLogin 和 Web4 Browser。平台需要同时满足：存在可访问的官方站点或帮助中心；公开资料足以填写至少一组核心字段；与中文用户常见的指纹浏览器、反检测浏览器或多环境浏览器选择有关。
+当前核心深度对比纳入 AdsPower、BitBrowser、Dolphin Anty、GoLogin、Hubstudio、ixBrowser、MoreLogin、Multilogin、Octo Browser、Roxy Browser、VMLogin 和 Web4 Browser。平台需要同时满足：存在可访问的官方站点或帮助中心；公开资料足以填写核心字段；与中文用户常见的指纹浏览器、反检测浏览器或多环境浏览器选择有关。
 
-平台名称出现在本项目中，不代表推荐或背书。以后新增平台时，仍需使用相同字段和证据规则。
+完整候选范围见 [`data/product-pool.csv`](data/product-pool.csv) 和 [`docs/product-catalog.md`](docs/product-catalog.md)。平台名称出现在产品池或核心对比中，不代表推荐、排名或背书。以后新增平台时，仍需使用相同字段和证据规则。
 
 ## 2. 来源优先级
 
@@ -31,7 +31,7 @@
 | 实际测试 | `tested` | 同时公开环境、版本、日期、步骤、截图或日志，且能追溯到原始证据 |
 | 待核实 | `unverified` | 来源缺失、页面冲突、动态内容无法稳定读取，或暂时无法确认 |
 
-首版没有真实安装和横向测试，因此数据中不使用 `tested`。
+当前版本没有真实安装和横向测试，因此数据中不使用 `tested`。
 
 ## 4. 核心字段如何核查
 
