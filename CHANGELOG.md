@@ -2,6 +2,15 @@
 
 本文件记录产品范围、字段、价格、来源和结论的实质变化。日期采用 `YYYY-MM-DD`。
 
+## 2026-07-23
+
+### 项目身份统一
+
+- 将项目署名统一为“指纹浏览器生态指南”。
+- 将引用信息和许可文件中的旧账号及旧仓库地址迁移到 `fingerprint-browser-guide/fingerprint-browser`。
+- 将项目主页统一为 `https://fingerprint-browser-guide.github.io/fingerprint-browser/`。
+- 将引用版本更新为 `1.1.0`；本次只修复项目身份和引用元数据，不代表产品事实已经在 2026-07-23 全量复核。
+
 ## 2026-07-17
 
 ### 项目重构
