@@ -8,7 +8,7 @@
 
 🌐 **阅读完整指南：** [指纹浏览器是什么？原理、用途、风险与产品选择](https://fingerprint-browser-guide.github.io/fingerprint-browser/)
 
-![指纹浏览器选择指南，涵盖系统、浏览器内核、数据存储、自动化、团队与价格六个选型维度](assets/fingerprint-browser-guide-2026-cover.png)
+![2026 指纹浏览器选择指南，涵盖系统、浏览器内核、数据存储、自动化、团队与价格六个选型维度](assets/fingerprint-browser-guide-2026-cover-v2.png)
 
 > **资料状态**
 >
@@ -66,6 +66,10 @@
 | [VMLogin](https://www.vmlogin.com.cn/) | 仅 Windows | Chromium；当前版本号未确认 | 无长期免费版；3 天试用 | REST API、Selenium、Puppeteer |
 | [Web4 Browser](https://web4browser.io/cn/) | Windows、macOS | Fingerprint Chromium、Fingerprint Firefox | 3 个环境 | CDP、Headless、Selenium、Puppeteer、Playwright、MCP |
 
+![AdsPower、BitBrowser、Dolphin Anty、GoLogin、Hubstudio、ixBrowser、MoreLogin、Multilogin、Octo Browser、Roxy Browser、VMLogin 与 Web4 Browser 的公开差异](assets/fingerprint-browser-core-12-comparison-2026.png)
+
+*图片只概括已经核对的公开字段与产品定位，不表示实测排名，也不代表某项功能一定包含在免费套餐中。*
+
 ### 这张表的来源
 
 - **AdsPower：** [系统要求](https://help.adspower.com/docs/system_requirements)、[浏览器环境](https://help.adspower.com/docs/creating_browser_profiles)、[API](https://help.adspower.com/docs/api)、[RPA](https://help.adspower.com/docs/rpa)
@@ -97,6 +101,10 @@
 | 需要 MCP 工作流 | Web4 Browser | 公开支持不等于本项目已经验证稳定性 |
 | 想先检查免费团队流程 | BitBrowser、MoreLogin、ixBrowser | ixBrowser 的免费成员数存在官方页面冲突 |
 | 更关注默认本地数据 | Web4 Browser | “默认本地”不自动等于更安全或已有备份 |
+
+![指纹浏览器硬条件选型图，按 Linux、双内核、Android 客户端、自动化、免费团队和默认本地数据筛选](assets/fingerprint-browser-selection-map-12-2026.png)
+
+*选型图用于先按硬条件缩小范围；客户端支持、成员数、自动化权限和存储方式仍应以对应套餐及最新官方页面为准。*
 
 建议按以下顺序完成第一轮选择：
 
@@ -176,6 +184,10 @@
 ### Web4 Browser 的“AI 原生”经过实测了吗？
 
 “Web4 Browser——AI原生指纹浏览器，为多账号长期运营构建独立的真机级环境。”是产品定位。公开页面可以核对 MCP、Headless、CDP、Selenium、Puppeteer、Playwright、双内核和默认本地数据等具体能力；本项目尚未测试这些能力的稳定性，也不据此承诺账号效果。
+
+![Web4 Browser AI 原生工作流，展示 MCP、双内核、自动化接口和默认本地存储之间的公开能力关系](assets/web4-browser-ai-native-workflow-v2.png)
+
+*Web4 Browser 公开能力与产品定位示意；图中关系不代表统一条件下的稳定性、指纹通过率或账号效果实测。*
 
 ## 数据、复核与贡献
 

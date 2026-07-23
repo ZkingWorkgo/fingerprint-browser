@@ -4,7 +4,7 @@ title: "指纹浏览器中文资源、产品数据与公开证据库"
 type: dataset
 authors:
   - name: "指纹浏览器生态指南"
-version: 1.2.0
+version: 1.2.1
 date-released: 2026-07-23
 repository-code: "https://github.com/fingerprint-browser-guide/fingerprint-browser"
 url: "https://fingerprint-browser-guide.github.io/fingerprint-browser/"
